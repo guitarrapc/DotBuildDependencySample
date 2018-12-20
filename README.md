@@ -10,7 +10,7 @@ Not smart enough build dependency resolver.
 
 ```
 . "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe" /t:clean,restore,build src/TestProject_oldcsproj/TestProject.sln
-ls src/TestProject_oldcsproj/ConsoleApp1/bin/Debug/
+ls TestProject_oldcsproj/ConsoleApp1/bin/Debug/
 ```
 
 result missing C.dll and it's messagepack binary as it never reference in ProjectC
@@ -34,8 +34,8 @@ Mode                LastWriteTime         Length Name
 Smar build engine.
 
 ```
-dotnet publish src/TestProject_newcsproj
-ls src/TestProject_newcsproj/ConsoleApp1/bin/Debug/net472/publish/
+dotnet publish src/TestProject_newcsproj/TestProject.sln
+ls TestProject_newcsproj/ConsoleApp1/bin/Debug/net472/publish/
 ```
 
 ```

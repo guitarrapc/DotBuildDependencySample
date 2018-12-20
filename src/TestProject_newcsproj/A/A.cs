@@ -2,7 +2,7 @@
 
 namespace A
 {
-    public class Class1
+    public class A
     {
         public string Hoge()
         {

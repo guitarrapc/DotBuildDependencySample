@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var a = new A.Class1().Hoge();
+            var a = new A.A().Hoge();
             Console.WriteLine($"Hello World! {a}");
         }
     }
